@@ -15,7 +15,7 @@
 
 import random
 numberOfStreaks = 0
-outcomeDict=('T','H') # 0 for Tails, 1 for Heads
+outcomeTuple=('T','H') # 0 for Tails, 1 for Heads
 
 for experimentNumber in range(10000) :
     # Code that creates a list of 100 'heads' or 'tails' values.
@@ -23,7 +23,7 @@ for experimentNumber in range(10000) :
 
     myOutcome="" # set empty string to record outcomes for each 100 flip run
     for i in range(100) : #'flip' 100 times
-        myOutcome += outcomeDict[ int(random.random()+.5) ] # 0/T for Tails, 1/H for Heads
+        myOutcome += outcomeTuple[ int(random.random()+.5) ] # 0/T for Tails, 1/H for Heads
     
     # Code that checks if there is a streak of 6 heads or tails in a row.
     if ("HHHHHH" in myOutcome) or ("TTTTTT" in myOutcome) : # 1 or more 6 streak appeared
