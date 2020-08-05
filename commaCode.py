@@ -1,4 +1,4 @@
-# Comma Code
+# Comma Code 1-4a
 
 # Say you have a list value like this:
 # spam = ['apples', 'bananas', 'tofu', 'cats']
@@ -58,7 +58,7 @@ print(spam)
 print(commaCode(spam))
 print()
 
-spam = ["Test one item", "With an other"]
+spam = ["Test one item", "another"]
 print(spam)
 print(commaCode(spam))
 print()
