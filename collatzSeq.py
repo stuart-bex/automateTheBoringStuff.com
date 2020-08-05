@@ -1,4 +1,4 @@
-#The Collatz Sequence 
+# The Collatz Sequence 
 # Training project from automateTheBoringStuff.com
 # a function named collatz() that has one parameter 
 # named number. If number is even, then collatz() 
